@@ -1,0 +1,117 @@
+body{
+  background-color: #f9f9f9;
+}
+
+#title {
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  width: 20%;
+  border-radius: 20px;
+}
+
+#pic{
+  padding: 10px;
+  margin: 10px;
+}
+
+#pic img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.seller{
+  font-family: Helvetica;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#rate{
+  font-family: Helvetica;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.foodInfo{
+  font-family: Helvetica;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.decision {
+  font-family: Helvetica;
+  font-size: 12px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+#home{
+  font-family: Helvetica;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.seller a, .decision a, #home a, .foodInfo, #rate{
+  text-decoration: none;
+  color: white;
+}
+
+.seller:hover{
+  background-color: white;
+  border: 2px dotted black;
+}
+
+.seller:hover a{
+  color: black;
+  text-transform: uppercase;
+}
+
+.decision:hover{
+  background-color: white;
+  border: 2px dotted black;
+}
+
+.decision:hover a{
+  color: black;
+  text-transform: uppercase;
+}
+
+#home:hover{
+  background-color: white;
+  border: 2px dotted black;
+}
+
+#home:hover a{
+  color: black;
+  text-transform: uppercase;
+}
